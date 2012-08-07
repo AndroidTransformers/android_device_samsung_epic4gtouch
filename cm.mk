@@ -24,11 +24,11 @@ PRODUCT_RELEASE_NAME := epic4gtouch
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/epic4gtouch/full_epic4gtouch.mk)
+$(call inherit-product, device/samsung/epic4gtouch/androidtransformers_epic4gtouch.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := epic4gtouch
-PRODUCT_NAME := cm_epic4gtouch
+PRODUCT_NAME := androidtransformers_epic4gtouch
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := SPH-D710 
 
