@@ -1,0 +1,13 @@
+#
+# system.prop for epic4gtouch
+#
+
+rild.libpath=/system/lib/libsec-ril40.so
+rild.libargs=-d /dev/ttyS0
+persist.sys.strictmode.visual=0
+
+# Ril sends only one RIL_UNSOL_CALL_RING, so set call_ring.multiple to false
+ro.telephony.call_ring.multiple=0
+
+# Set ring delay to 0ms
+ro.telephony.call_ring.delay=0
