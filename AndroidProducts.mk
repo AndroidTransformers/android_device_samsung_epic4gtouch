@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_epic4gtouch.mk
+    $(LOCAL_DIR)/androidtransformers_epic4gtouch.mk
